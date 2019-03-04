@@ -3,7 +3,7 @@ package com.stackroute;
 import java.util.Scanner;
 
 public class PowerOf4 {
-    public String checkPowerOf4(int num)
+    public int checkPowerOf4(int num)
     {
         
         int resultNumInt = (int)Math.log(num)/(int)Math.log(4);
@@ -16,5 +16,6 @@ public class PowerOf4 {
         {
             System.out.println("Number is not a power of 4");
         }
+        return resultNumInt;
     }
 }
