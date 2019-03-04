@@ -11,12 +11,12 @@ public class PowerOf4Test {
     PowerOf4 obj;
     @Before
     public void setUp() throws Exception {
-        PowerOf4 obj = new PowerOf4();
+         obj = new PowerOf4();
     }
 
     @After
     public void tearDown() throws Exception {
-        PowerOf4 obj = null;
+        obj = null;
     }
 
     @Test
