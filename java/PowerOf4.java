@@ -2,11 +2,10 @@ package com.stackroute;
 
 import java.util.Scanner;
 
-public class Ques2 {
-    public static void main(String args[])
+public class PowerOf4 {
+    public String checkPowerOf4(int num)
     {
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
+        
         int resultNumInt = (int)Math.log(num)/(int)Math.log(4);
         Double resultNumDouble = Math.log(num)/Math.log(4);
         if(resultNumInt == resultNumDouble)
