@@ -24,7 +24,6 @@ public class PowerOf4Test {
         assertEquals(true,obj.checkPowerOf4(16));
         assertEquals(true,obj.checkPowerOf4(64));
         assertEquals(false,obj.checkPowerOf4(2));
-        assertEquals(true,obj.checkPowerOf4(0));
         assertEquals(false,obj.checkPowerOf4(10));
     }
 }
